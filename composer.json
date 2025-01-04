@@ -1,0 +1,25 @@
+{
+    "name": "pioneer-dynamics/inertia-api-middleware",
+    "description": "Easily use standard HTTP Controllers for API calls as well when using inertia as front end",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PioneerDynamics\\InertiaApiMiddleware\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mathew Paret",
+            "email": "mathewparet@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PioneerDynamics\\InertiaApiMiddleware\\Providers\\InertiaApiServiceProvider"
+            ]
+        }
+    }
+}
