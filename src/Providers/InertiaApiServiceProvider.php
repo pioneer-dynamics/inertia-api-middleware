@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace PioneerDynamics\InertiaApiMiddleware\Providers;
 
 use Inertia\Support\Header;
 use Illuminate\Http\Request;
